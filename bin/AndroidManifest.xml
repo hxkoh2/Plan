@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.catchthegivingbug.mylists"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/bug"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.catchthegivingbug.mylists.Lists"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.catchthegivingbug.mylists.ListScreen"
+            android:label="@string/app_name"
+            android:parentActivityName="com.catchthegivingbug.mylists.Lists" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.catchthegivingbug.mylists.Lists" />
+        </activity>
+        <activity
+            android:name="com.catchthegivingbug.mylists.DetailsScreen"
+            android:label="@string/app_name"
+            android:parentActivityName="com.catchthegivingbug.mylists.ListScreen" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.catchthegivingbug.mylists.ListScreen" />
+        </activity>
+        <!--
+        <activity
+            android:name="com.catchthegivingbug.mylists.ListObjects"
+            android:label="@string/title_activity_list_objects" >
+        </activity>
+        <activity
+            android:name="com.catchthegivingbug.mylists.MyArrayAdapter"
+            android:label="@string/title_activity_my_array_adapter" >
+        </activity>
+        <activity
+            android:name="com.catchthegivingbug.mylists.MyMainArrayAdapter"
+            android:label="@string/title_activity_my_main_array_adapter" >
+        </activity>
+        -->
+        <activity
+            android:name="com.catchthegivingbug.mylists.MyDatePicker"
+            android:label="@string/title_activity_date_picker" >
+        </activity>
+    </application>
+
+</manifest>

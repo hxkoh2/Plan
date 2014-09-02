@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">My Lists</string>
+    <string name="action_settings">Settings</string>
+    <string name="plus">+</string>
+    <string name="add_task">Enter a task</string>
+    <string name="title_activity_details_screen">DetailsScreen</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="notes">Notes</string>
+    <string name="addNotes">Add Notes Here</string>
+    <string name="done">Done</string>
+    <string name="cancel">Cancel</string>
+    <string name="title">Task</string>
+    <string name="delete">Delete</string>
+    <string name="title_activity_list_objects">ListObjects</string>
+    <string name="title_activity_my_array_adapter">MyArrayAdapter</string>
+    <string name="show_completed">Show Completed</string>
+    <string name="hide_completed">Hide Completed</string>
+    <string name="add_to_calendar">Add to Calendar</string>
+    <string name="delete_completed">Delete Completed</string>
+    <string name="title_activity_lists">Lists</string>
+    <string name="add_list">Add a List</string>
+    <string name="title_activity_my_main_array_adapter">MyMainArrayAdapter</string>
+    <string name="title_activity_date_picker">DatePicker</string>
+	<string name="due_date">Due Date</string>
+</resources>
